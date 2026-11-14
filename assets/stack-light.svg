@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="276" viewBox="0 0 1000 276" role="img" aria-label="Stack: backend: PHP, Laravel, Symfony, API Platform; data: PostgreSQL, MySQL, Redis, Manticore; infra: Docker, NATS JetStream, GitHub Actions; frontend: Vue, TypeScript; learning: Go, Swift">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="276" viewBox="0 0 1000 276" role="img" aria-label="Stack: backend: PHP, Laravel, Symfony, API Platform; data: PostgreSQL, MySQL, Redis, Manticore; infra: Docker, NATS JetStream, GitHub Actions; frontend: Vue, TypeScript; learning: Go">
 <rect x="1" y="1" width="998" height="274" rx="16" fill="#f6f8fa" stroke="#d0d7de"/>
 <text x="36" y="50" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#59636e"><tspan fill="#0f766e">#</tspan> backend</text>
 <rect x="170" y="28" width="63.8" height="32" rx="8" fill="#ffffff" stroke="#d0d7de"/><circle cx="186" cy="44" r="5" fill="#777BB4"/><text x="198" y="49" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#1f2328">PHP</text>
@@ -23,5 +23,4 @@
 <line x1="36" y1="205" x2="964" y2="205" stroke="#e6eaef"/>
 <text x="36" y="234" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#59636e"><tspan fill="#0f766e">#</tspan> learning</text>
 <rect x="170" y="212" width="55.9" height="32" rx="8" fill="#ffffff" stroke="#d0d7de"/><circle cx="186" cy="228" r="5" fill="#00ADD8"/><text x="198" y="233" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#1f2328">Go</text>
-<rect x="235.86" y="212" width="79.7" height="32" rx="8" fill="#ffffff" stroke="#d0d7de"/><circle cx="251.86" cy="228" r="5" fill="#F05138"/><text x="263.86" y="233" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#1f2328">Swift</text>
 </svg>

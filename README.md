@@ -1,6 +1,6 @@
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg"><img alt="Vladislav Kasev, backend developer" src="assets/header-light.svg" width="100%"></picture>
 
-I build APIs in PHP with Laravel and Symfony and care most about the parts that break in production: retries, race conditions, data consistency. Lately I'm writing Go as well, and sometimes Swift for fun.
+I build APIs in PHP with Laravel and Symfony and care most about the parts that break in production: retries, race conditions, data consistency. Lately I'm writing Go as well.
 
 ### Projects
 
@@ -12,7 +12,7 @@ I build APIs in PHP with Laravel and Symfony and care most about the parts that 
 
 ### Stack
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg"><img alt="PHP, Laravel, Symfony, API Platform, PostgreSQL, MySQL, Redis, Manticore, Docker, NATS JetStream, GitHub Actions, Vue, TypeScript, Go, Swift" src="assets/stack-light.svg" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg"><img alt="PHP, Laravel, Symfony, API Platform, PostgreSQL, MySQL, Redis, Manticore, Docker, NATS JetStream, GitHub Actions, Vue, TypeScript, Go" src="assets/stack-light.svg" width="100%"></picture>
 
 ### What I'm into
 

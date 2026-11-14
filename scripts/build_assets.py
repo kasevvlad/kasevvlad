@@ -112,7 +112,7 @@ STACK = [
     ("data", ["PostgreSQL", "MySQL", "Redis", "Manticore"]),
     ("infra", ["Docker", "NATS JetStream", "GitHub Actions"]),
     ("frontend", ["Vue", "TypeScript"]),
-    ("learning", ["Go", "Swift"]),
+    ("learning", ["Go"]),
 ]
 
 STACK_COLORS = {
@@ -130,7 +130,6 @@ STACK_COLORS = {
     "Vue": "#42B883",
     "TypeScript": "#3178C6",
     "Go": "#00ADD8",
-    "Swift": "#F05138",
 }
 
 
