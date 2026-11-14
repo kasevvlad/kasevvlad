@@ -44,9 +44,19 @@ LANG_COLORS = {
 
 PROJECTS = [
     {
-        "name": "cs16-launcher",
+        "name": "wave-bar",
         "lang": "Swift",
         "new": True,
+        "desc": [
+            "Yandex Music player for the macOS menu bar:",
+            "My Wave and liked tracks, media keys and",
+            "Now Playing in Control Center.",
+        ],
+        "tags": ["SwiftUI", "AVFoundation", "MenuBarExtra"],
+    },
+    {
+        "name": "cs16-launcher",
+        "lang": "Swift",
         "desc": [
             "Native Counter-Strike 1.6 launcher for",
             "Apple Silicon Macs: SwiftUI + Xash3D FWGS,",
