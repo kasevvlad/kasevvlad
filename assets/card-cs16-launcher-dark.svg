@@ -10,4 +10,5 @@
 <rect x="30" y="152" width="65.0" height="22" rx="6" fill="#0d1117" stroke="#30363d"/><text x="62.5" y="167" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#8b949e">SwiftUI</text>
 <rect x="102.97" y="152" width="51.5" height="22" rx="6" fill="#0d1117" stroke="#30363d"/><text x="128.7" y="167" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#8b949e">arm64</text>
 <rect x="162.51999999999998" y="152" width="78.4" height="22" rx="6" fill="#0d1117" stroke="#30363d"/><text x="201.7" y="167" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#8b949e">macOS 13+</text>
+<text x="450" y="167" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#8b949e"><tspan fill="#2dd4bf">↓</tspan> 1 download</text>
 </svg>

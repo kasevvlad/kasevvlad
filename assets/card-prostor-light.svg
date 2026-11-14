@@ -11,4 +11,5 @@
 <rect x="30" y="152" width="65.0" height="22" rx="6" fill="#ffffff" stroke="#d0d7de"/><text x="62.5" y="167" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#59636e">SwiftUI</text>
 <rect x="102.97" y="152" width="91.8" height="22" rx="6" fill="#ffffff" stroke="#d0d7de"/><text x="148.9" y="167" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#59636e">FileManager</text>
 <rect x="202.78" y="152" width="98.5" height="22" rx="6" fill="#ffffff" stroke="#d0d7de"/><text x="252.0" y="167" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#59636e">safe cleanup</text>
+<text x="450" y="167" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#59636e"><tspan fill="#0f766e">↓</tspan> 3 downloads</text>
 </svg>

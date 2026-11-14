@@ -11,6 +11,12 @@ I build APIs in PHP with Laravel and Symfony and care most about the parts that 
 <a href="https://github.com/kasevvlad/rate-limiter"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-rate-limiter-dark.svg"><img alt="rate-limiter" src="assets/card-rate-limiter-light.svg" width="50%"></picture></a><a href="https://github.com/kasevvlad/learning-notes"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-learning-notes-dark.svg"><img alt="learning-notes" src="assets/card-learning-notes-light.svg" width="50%"></picture></a>
 </p>
 
+### Stats
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg"><img alt="GitHub stats: release downloads, contributions, public projects, releases" src="assets/stats-light.svg" width="100%"></picture>
+
+<p align="center"><img alt="Profile views" src="https://komarev.com/ghpvc/?username=kasevvlad&label=profile%20views&color=14a693&style=flat-square"></p>
+
 ### Stack
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg"><img alt="PHP, Laravel, Symfony, API Platform, PostgreSQL, MySQL, Redis, Manticore, Docker, NATS JetStream, GitHub Actions, Vue, TypeScript, Go" src="assets/stack-light.svg" width="100%"></picture>

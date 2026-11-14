@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="168" viewBox="0 0 1000 168" role="img" aria-label="GitHub stats: 6 release downloads, 119 contributions, past year, 10 public projects, 5 releases">
+<rect x="1" y="1" width="998" height="166" rx="16" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="143.0" y="82" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="42" font-weight="700" fill="#1f2328" letter-spacing="-1">6</text>
+<text x="143.0" y="108" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" fill="#59636e">release downloads</text>
+<line x1="262.0" y1="34" x2="262.0" y2="114" stroke="#e6eaef"/>
+<text x="381.0" y="82" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="42" font-weight="700" fill="#1f2328" letter-spacing="-1">119</text>
+<text x="381.0" y="108" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" fill="#59636e">contributions, past year</text>
+<line x1="500.0" y1="34" x2="500.0" y2="114" stroke="#e6eaef"/>
+<text x="619.0" y="82" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="42" font-weight="700" fill="#1f2328" letter-spacing="-1">10</text>
+<text x="619.0" y="108" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" fill="#59636e">public projects</text>
+<line x1="738.0" y1="34" x2="738.0" y2="114" stroke="#e6eaef"/>
+<text x="857.0" y="82" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="42" font-weight="700" fill="#1f2328" letter-spacing="-1">5</text>
+<text x="857.0" y="108" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" fill="#59636e">releases</text>
+<text x="500.0" y="146" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#59636e" opacity="0.8"><tspan fill="#0f766e">●</tspan> last change 2026-11-14 · checked daily</text>
+</svg>

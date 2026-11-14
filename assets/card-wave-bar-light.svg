@@ -10,4 +10,5 @@
 <rect x="30" y="152" width="65.0" height="22" rx="6" fill="#ffffff" stroke="#d0d7de"/><text x="62.5" y="167" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#59636e">SwiftUI</text>
 <rect x="102.97" y="152" width="98.5" height="22" rx="6" fill="#ffffff" stroke="#d0d7de"/><text x="152.2" y="167" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#59636e">AVFoundation</text>
 <rect x="209.49" y="152" width="98.5" height="22" rx="6" fill="#ffffff" stroke="#d0d7de"/><text x="258.8" y="167" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#59636e">MenuBarExtra</text>
+<text x="450" y="167" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#59636e"><tspan fill="#0f766e">↓</tspan> 2 downloads</text>
 </svg>

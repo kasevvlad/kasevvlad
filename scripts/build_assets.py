@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 """Builds the SVG images used in the profile README: python3 scripts/build_assets.py"""
 
+import json
 from pathlib import Path
 from xml.sax.saxutils import escape
 
 OUT = Path(__file__).resolve().parent.parent / "assets"
+STATS_FILE = OUT / "stats.json"
 
 SANS = "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
 MONO = "ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace"
@@ -303,7 +305,57 @@ def card(p, t):
             f'font-size="11" fill="{t["muted"]}">{escape(tag)}</text>'
         )
         x += tw + 8
+
+    count = load_stats().get("downloads", {}).get(p["name"], 0)
+    if count:
+        noun = "download" if count == 1 else "downloads"
+        parts.append(
+            f'<text x="{right}" y="{y + 15}" text-anchor="end" font-family="{MONO}" font-size="11.5" '
+            f'fill="{t["muted"]}"><tspan fill="{t["accent"]}">↓</tspan> {count} {noun}</text>'
+        )
     return svg(w, h, "\n".join(parts), f'{p["name"]}: {" ".join(p["desc"])}')
+
+
+def load_stats():
+    try:
+        return json.loads(STATS_FILE.read_text())
+    except (FileNotFoundError, ValueError):
+        return {}
+
+
+def stats_card(t, data):
+    w, h = 1000, 168
+    tiles = [
+        (data.get("total_downloads", 0), "release downloads"),
+        (data.get("contributions", 0), "contributions, past year"),
+        (data.get("projects", 0), "public projects"),
+        (data.get("releases", 0), "releases"),
+    ]
+    tile_w = (w - 48) / len(tiles)
+    parts = [
+        f'<rect x="1" y="1" width="{w - 2}" height="{h - 2}" rx="16" fill="{t["card"]}" stroke="{t["border"]}"/>'
+    ]
+    for i, (value, label) in enumerate(tiles):
+        cx = 24 + tile_w * i + tile_w / 2
+        if i:
+            x = 24 + tile_w * i
+            parts.append(f'<line x1="{x:.1f}" y1="34" x2="{x:.1f}" y2="{h - 54}" stroke="{t["faint"]}"/>')
+        number = f"{value:,}".replace(",", "\u2009")
+        parts.append(
+            f'<text x="{cx:.1f}" y="82" text-anchor="middle" font-family="{SANS}" font-size="42" '
+            f'font-weight="700" fill="{t["text"]}" letter-spacing="-1">{number}</text>'
+        )
+        parts.append(
+            f'<text x="{cx:.1f}" y="108" text-anchor="middle" font-family="{MONO}" font-size="12.5" '
+            f'fill="{t["muted"]}">{label}</text>'
+        )
+    parts.append(
+        f'<text x="{w / 2}" y="{h - 22}" text-anchor="middle" font-family="{MONO}" font-size="11" '
+        f'fill="{t["muted"]}" opacity="0.8"><tspan fill="{t["accent"]}">●</tspan> '
+        f'last change {data.get("updated", "")} · checked daily</text>'
+    )
+    summary = ", ".join(f"{v} {l}" for v, l in tiles)
+    return svg(w, h, "\n".join(parts), f"GitHub stats: {summary}")
 
 
 def stack(t):
@@ -341,9 +393,12 @@ def stack(t):
 
 def main():
     OUT.mkdir(exist_ok=True)
+    stats = load_stats()
     for name, t in THEMES.items():
         (OUT / f"header-{name}.svg").write_text(header(t))
         (OUT / f"stack-{name}.svg").write_text(stack(t))
+        if stats:
+            (OUT / f"stats-{name}.svg").write_text(stats_card(t, stats))
         for p in PROJECTS:
             (OUT / f"card-{p['name']}-{name}.svg").write_text(card(p, t))
 
