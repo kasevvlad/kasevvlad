@@ -44,9 +44,19 @@ LANG_COLORS = {
 
 PROJECTS = [
     {
-        "name": "wave-bar",
+        "name": "prostor",
         "lang": "Swift",
         "new": True,
+        "desc": [
+            "Free disk cleaner and space analyzer for",
+            "macOS: caches, leftovers of removed apps,",
+            "large files. Everything goes to the Trash.",
+        ],
+        "tags": ["SwiftUI", "FileManager", "safe cleanup"],
+    },
+    {
+        "name": "wave-bar",
+        "lang": "Swift",
         "desc": [
             "Yandex Music player for the macOS menu bar:",
             "My Wave and liked tracks, media keys and",

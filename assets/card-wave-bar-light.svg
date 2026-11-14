@@ -4,7 +4,6 @@
 <rect x="8" y="8" width="464" height="3" fill="#F05138" clip-path="url(#c)"/>
 <text x="30" y="50" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#1f2328">wave-bar</text>
 <text x="450" y="47" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#59636e">Swift</text><circle cx="403.4" cy="43" r="5" fill="#F05138"/>
-<rect x="343.4" y="32" width="44" height="20" rx="10" fill="#0f766e1a" stroke="#0f766e" stroke-opacity="0.5"/><text x="365.4" y="46" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="600" fill="#0f766e">new</text>
 <text x="30" y="84" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" fill="#59636e">Yandex Music player for the macOS menu bar:</text>
 <text x="30" y="106" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" fill="#59636e">My Wave and liked tracks, media keys and</text>
 <text x="30" y="128" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" fill="#59636e">Now Playing in Control Center.</text>
