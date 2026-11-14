@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="200" viewBox="0 0 480 200" role="img" aria-label="idempotency: Idempotency-Key header for Laravel and Symfony: a retried POST returns the stored response instead of charging twice.">
+<defs><clipPath id="c"><rect x="8" y="8" width="464" height="184" rx="12"/></clipPath></defs>
+<rect x="8.5" y="8.5" width="463" height="183" rx="12" fill="#161b22" stroke="#30363d"/>
+<rect x="8" y="8" width="464" height="3" fill="#777BB4" clip-path="url(#c)"/>
+<text x="30" y="50" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#e6edf3">idempotency</text>
+<text x="450" y="47" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#8b949e">PHP</text><circle cx="418.04" cy="43" r="5" fill="#777BB4"/>
+<text x="30" y="84" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" fill="#8b949e">Idempotency-Key header for Laravel and</text>
+<text x="30" y="106" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" fill="#8b949e">Symfony: a retried POST returns the stored</text>
+<text x="30" y="128" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" fill="#8b949e">response instead of charging twice.</text>
+<rect x="30" y="152" width="65.0" height="22" rx="6" fill="#0d1117" stroke="#30363d"/><text x="62.5" y="167" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#8b949e">Laravel</text>
+<rect x="102.97" y="152" width="65.0" height="22" rx="6" fill="#0d1117" stroke="#30363d"/><text x="135.5" y="167" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#8b949e">Symfony</text>
+<rect x="175.94" y="152" width="78.4" height="22" rx="6" fill="#0d1117" stroke="#30363d"/><text x="215.1" y="167" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#8b949e">Packagist</text>
+</svg>
