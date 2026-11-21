@@ -11,5 +11,5 @@
 <line x1="738.0" y1="34" x2="738.0" y2="114" stroke="#21262d"/>
 <text x="857.0" y="82" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="42" font-weight="700" fill="#e6edf3" letter-spacing="-1">5</text>
 <text x="857.0" y="108" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" fill="#8b949e">releases</text>
-<text x="500.0" y="146" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#8b949e" opacity="0.8"><tspan fill="#2dd4bf">●</tspan> last change 2026-11-16 · checked daily</text>
+<text x="500.0" y="146" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#8b949e" opacity="0.8"><tspan fill="#2dd4bf">●</tspan> last change 2026-11-21 · checked daily</text>
 </svg>
